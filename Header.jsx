@@ -1,0 +1,1 @@
+export default function Header(){ return (<header className="header container py-4"><img src="/logo.png" alt="logo" className="w-12 h-12" /><div><h1 className="text-xl font-bold">Meesho Profit Tool</h1><p className="text-sm text-slate-500">Premium dashboard for sellers</p></div></header>)}

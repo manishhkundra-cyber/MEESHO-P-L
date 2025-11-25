@@ -1,0 +1,1 @@
+import * as XLSX from 'xlsx'; export default function ExportButton({data=[],filename='report.xlsx'}){ function handleExport(){ const ws=XLSX.utils.json_to_sheet(data); const wb=XLSX.utils.book_new(); XLSX.utils.book_append_sheet(wb,ws,'Report'); XLSX.writeFile(wb,filename);} return <button className="btn btn-primary mt-3" onClick={handleExport}>Download XLSX</button>; } 

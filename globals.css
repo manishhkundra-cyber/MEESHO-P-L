@@ -1,0 +1,1 @@
+@tailwind base;@tailwind components;@tailwind utilities;html,body,#__next{height:100%}body{@apply bg-slate-50 text-slate-800}.container{@apply max-w-5xl mx-auto p-6}.header{@apply flex items-center gap-4}.card{@apply bg-white rounded-2xl p-6 shadow-md}.btn{@apply inline-block px-4 py-2 rounded-lg font-medium}.btn-primary{@apply bg-indigo-600 text-white}
